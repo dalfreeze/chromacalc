@@ -1,0 +1,46 @@
+body {
+    padding: 2rem;
+}
+
+.container {
+    position: relative;
+    height: 50vh;
+    width: 40%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 40%;
+    padding-top: 18rem;
+}
+
+.interface {
+    background-color: rgb(99, 89, 89);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin-top: 5rem;
+}
+
+.numpad {
+    position: absolute;
+    transform: translateY(50%);
+    width: 80%;
+    margin-left: 1rem;
+}
+
+button {
+    height: 5rem;
+    width: 25%;
+}
+
+input {
+    height: 5rem;
+
+    width: 75%;
+    margin-top: 2rem;
+    display: inline-block;
+}
+
+.btn-calc {
+    display: inline-block;
+    width: 20%;
+}
